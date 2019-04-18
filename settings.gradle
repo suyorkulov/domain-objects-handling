@@ -1,0 +1,9 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+    }
+}
+rootProject.name = 'sample-project'
+include ':classic-version'
+include ':endpoint-version'
+include ':favorite-version'
